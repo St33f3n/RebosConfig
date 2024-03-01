@@ -1,0 +1,112 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
+imports = [
+     "programming",
+]
+
+# Packages to be installed via the native package manager.
+pkg_managers.system.pkgs = [
+    
+    # FTP
+    "git",
+    "curl",
+    "wget",
+    "filezilla",
+    
+    #Terminals
+    "alacritty",
+    "kitty",
+    
+    # Konsolentools
+    "zoxide",
+    "tmux",
+    "starship",
+    "btop",
+    "nvtop",
+
+    #Hilfstools
+    "espanso-wayland",
+    "gimp",
+    
+    
+    #AMD-Grafik
+    "xf86-video-amdgpu",
+    "vulkan-radeon",
+    "lib32-vulkan-radeon",    
+
+    #Organisation
+    "obsidian",
+    "korganizer",
+    "pomatez",
+    "masterpdfeditor",
+    "mc",
+    
+
+    #Unterhaltung
+    "spotify-launcher",
+    "steam",
+    "calibre",
+
+    #Kommunikation
+    "discord",
+    "slack",
+    "signal-desktop",
+    "element-desktop",
+    "thunderbird",
+    "tokodon",
+    
+
+    #System Relevant
+    "firefox",
+    "kdeconnect",
+    "timeshift",
+    "grimshot",
+    "mpv",
+    "corectrl",
+
+        #Fonts
+        "noto-fonts-emoji",
+
+    #Lab
+    "arduino",
+    "kicad",
+    "cura-bin",
+    
+    
+    #Virtualisierung
+    "qemu-full",
+    "virt-manager",
+    "virt-viewer",
+    "dnsmasq",
+    "bridge-utils",
+    "bottles",
+    "cowsay",
+    
+]
+
+# Packages to be installed via Flatpak.
+pkg_managers.flatpak.pkgs = [
+    # "com.github.tchx84.Flatseal",
+]
+
+# Packages to be installed via Cargo.
+pkg_managers.cargo.pkgs = [
+    "bacon",
+    "nu",
+    "exa",
+    "du-dust",
+    "bat",
+    "ripgrep",
+    "cargo-info",
+    "cargo-update",
+    "cargo-expand",
+    "cargo-show-asm",
+    "irust",
+    "speedtest-rs",
+    "wiki-tui",
+    "mprocs",
+    "uwuify",
+]

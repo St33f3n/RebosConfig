@@ -1,0 +1,24 @@
+pkg_managers.system.pkgs = [
+  # Rust
+  "rustup",
+  "rust-analyzer",
+  "rust-src",
+
+  # Python
+  "python",
+  "python-pip",
+  "python-pipx",
+
+  #R
+  "r",
+
+  #Editors
+  "neovim",
+  "emacs",
+  "visual-studio-code-bin",
+  "helix",
+  
+  #Extras
+  "jupyterlab",
+  
+]
