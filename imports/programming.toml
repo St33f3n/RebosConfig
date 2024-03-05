@@ -17,8 +17,26 @@ pkg_managers.system.pkgs = [
   "emacs",
   "visual-studio-code-bin",
   "helix",
+
+  #Language Servers
+  "ansible-language-server",
+  "bash-language-server",
+  "vscode-langservers-extracted",
+  "dockerfile-language-server",
+  "markdown-oxide-git",
+  "python-lsp-server",
+  "typescript-language-server",
+  
   
   #Extras
   "jupyterlab",
+  "ansible",
+]
+
+
+pkg_managers.cargo.pkgs = [
+  "taplo-cli",
+  "evcxr",
+  "evcxr_jupyter",
   
 ]

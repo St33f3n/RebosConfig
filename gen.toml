@@ -15,6 +15,7 @@ pkg_managers.system.pkgs = [
     "curl",
     "wget",
     "filezilla",
+    "nextcloud-client",
     
     #Terminals
     "alacritty",
@@ -30,6 +31,8 @@ pkg_managers.system.pkgs = [
     #Hilfstools
     "espanso-wayland",
     "gimp",
+    "yt-dlp",
+    "cowsay",
     
     
     #AMD-Grafik
@@ -83,7 +86,7 @@ pkg_managers.system.pkgs = [
     "dnsmasq",
     "bridge-utils",
     "bottles",
-    "cowsay",
+
     
 ]
 
@@ -109,4 +112,8 @@ pkg_managers.cargo.pkgs = [
     "wiki-tui",
     "mprocs",
     "uwuify",
+    "trunk",
+    "coreutils",
+    "exa",
+
 ]
