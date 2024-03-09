@@ -9,7 +9,24 @@ imports = [
 
 # Packages to be installed via the native package manager.
 pkg_managers.system.pkgs = [
-    # "git",
+    #AMD-Grafik
+    "xf86-video-amdgpu",
+    "vulkan-radeon",
+    "lib32-vulkan-radeon",
+
+
+    #Lab
+    "arduino",
+    "kicad",
+    "cura-bin",
+
+
+        #Virtualisierung
+    "qemu-full",
+    "virt-manager",
+    "virt-viewer",
+    "dnsmasq",
+    "bridge-utils",    
 ]
 
 # Packages to be installed via Flatpak.

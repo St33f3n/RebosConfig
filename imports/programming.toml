@@ -38,5 +38,5 @@ pkg_managers.cargo.pkgs = [
   "taplo-cli",
   "evcxr",
   "evcxr_jupyter",
-  
+  "zellij",
 ]
