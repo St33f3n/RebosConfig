@@ -20,15 +20,20 @@ pkg_managers.system.pkgs = [
     #Terminals
     "alacritty",
     "kitty",
+    "zsh",
+    "zsh-autosuggestions",
     
     # Konsolentools
     "zoxide",
+    "fd",
     "tmux",
     "starship",
     "btop",
     "nvtop",
     "atuin",
     "tldr",
+    "atuin",
+    "fastfetch",
     
 
     #Hilfstools
@@ -60,6 +65,7 @@ pkg_managers.system.pkgs = [
     "signal-desktop",
     "element-desktop",
     "tokodon",
+    "slack-desktop",
     
 
     #System Relevant
