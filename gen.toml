@@ -37,11 +37,13 @@ pkg_managers.system.pkgs = [
     
 
     #Hilfstools
+
     "drawio-desktop-bin",
     "gimp",
     "yt-dlp",
     "cowsay",
     "rustdesk-bin",
+
 
 
     #Organisation
