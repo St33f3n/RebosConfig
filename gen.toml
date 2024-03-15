@@ -75,11 +75,12 @@ pkg_managers.system.pkgs = [
 
     #System Relevant
     "firefox",
-    "kdeconnect",
+    "localsend-bin",
     "timeshift",
     "grimshot",
     "mpv",
     "corectrl",
+    "keepassxc",
 
         #Fonts
         "noto-fonts-emoji",
