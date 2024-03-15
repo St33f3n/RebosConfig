@@ -20,6 +20,8 @@ pkg_managers.system.pkgs = [
     "kicad",
     "cura-bin",
 
+    #Audio
+    "noisetorch",
 
         #Virtualisierung
     "qemu-full",

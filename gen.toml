@@ -16,6 +16,7 @@ pkg_managers.system.pkgs = [
     "wget",
     "filezilla",
     "nextcloud-client",
+    "transmission",
     
     #Terminals
     "alacritty",
@@ -55,6 +56,7 @@ pkg_managers.system.pkgs = [
     "fzf",
     "zoxide",
     
+    
 
     #Unterhaltung
     "spotify-launcher",
@@ -68,6 +70,7 @@ pkg_managers.system.pkgs = [
     "element-desktop",
     "tokodon",
     "slack-desktop",
+    "protonmail-desktop",
     
 
     #System Relevant
@@ -116,5 +119,6 @@ pkg_managers.cargo.pkgs = [
     "trunk",
     "coreutils",
     "eza",
+    "tree-rs",
 
 ]
