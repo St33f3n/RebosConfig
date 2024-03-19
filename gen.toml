@@ -49,7 +49,7 @@ pkg_managers.system.pkgs = [
 
     #Organisation
     "obsidian",
-    "korganizer",
+    "evolution",
     "pomatez",
     "masterpdfeditor",
     "lf",
@@ -121,5 +121,7 @@ pkg_managers.cargo.pkgs = [
     "coreutils",
     "eza",
     "tree-rs",
+    "hexyl",
+    "nomino",
 
 ]
