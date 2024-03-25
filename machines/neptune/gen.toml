@@ -28,7 +28,8 @@ pkg_managers.system.pkgs = [
     "virt-manager",
     "virt-viewer",
     "dnsmasq",
-    "bridge-utils",    
+    "bridge-utils",
+    "docker",    
 ]
 
 # Packages to be installed via Flatpak.

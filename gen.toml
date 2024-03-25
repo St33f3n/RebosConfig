@@ -16,7 +16,7 @@ pkg_managers.system.pkgs = [
     "wget",
     "filezilla",
     "nextcloud-client",
-    "transmission",
+    "transmission-gtk",
     
     #Terminals
     "alacritty",
