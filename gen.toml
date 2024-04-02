@@ -62,15 +62,15 @@ pkg_managers.system.pkgs = [
     "spotify-launcher",
     "steam",
     "calibre",
+    "freetube",
 
     #Kommunikation
     "discord",
-    "slack",
+    "betterbird-de-bin",
     "signal-desktop",
     "element-desktop",
     "tokodon",
-    "slack-desktop",
-    "protonmail-desktop",
+
     
 
     #System Relevant
@@ -81,6 +81,15 @@ pkg_managers.system.pkgs = [
     "mpv",
     "corectrl",
     "keepassxc",
+    "protonvpn-gui",
+    "rofi-lbonn-wayland",
+    "pandoc",
+    "netcat",
+    "protonmail-bridge",
+    "7-zip-full",
+    "partitionmanager",
+    "flatpak",
+    "transmission-gtk",
 
         #Fonts
         "noto-fonts-emoji",
@@ -123,5 +132,7 @@ pkg_managers.cargo.pkgs = [
     "tree-rs",
     "hexyl",
     "nomino",
+    "tree-rs",
+    "lacygit",
 
 ]

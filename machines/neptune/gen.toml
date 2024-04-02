@@ -19,6 +19,8 @@ pkg_managers.system.pkgs = [
     "arduino",
     "kicad",
     "cura-bin",
+    "remmina",
+    "freerdp",
 
     #Audio
     "noisetorch",
@@ -29,12 +31,16 @@ pkg_managers.system.pkgs = [
     "virt-viewer",
     "dnsmasq",
     "bridge-utils",
-    "docker",    
+    "podman",
+    "podman-docker",
+    "monero-gui",
+    "docker-compose",
+
 ]
 
 # Packages to be installed via Flatpak.
 pkg_managers.flatpak.pkgs = [
-    # "com.github.tchx84.Flatseal",
+    "io.podman_desktop.PodmanDesktop"
 ]
 
 # Packages to be installed via Cargo.

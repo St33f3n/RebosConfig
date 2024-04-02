@@ -1,6 +1,6 @@
 # Flatpak
 
-install = "flatpak install #:?"
+install = "flatpak install --user #:?"
 remove = "flatpak uninstall #:?"
 upgrade = "flatpak upgrade"
 

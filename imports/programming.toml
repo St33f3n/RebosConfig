@@ -1,4 +1,7 @@
 pkg_managers.system.pkgs = [
+  #Erlang-Based
+  "elixir",
+
   # Rust
   "rustup",
   "rust-analyzer",
@@ -8,13 +11,13 @@ pkg_managers.system.pkgs = [
   "python",
   "python-pip",
   "python-pipx",
+  "poetry",
 
   #R
   "r",
 
   #Editors
   "neovim",
-  "emacs",
   "visual-studio-code-bin",
   "helix",
 
