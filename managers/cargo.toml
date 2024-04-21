@@ -1,0 +1,9 @@
+# Cargo
+
+add = "cargo install #:?"
+remove = "cargo uninstall #:?" 
+upgrade = "cargo install-update -a" 
+plural_name = "crates" 
+[config]
+ many_args = true
+

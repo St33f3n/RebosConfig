@@ -1,9 +1,14 @@
+# --------------------- #
+#    Generation File    #
+# --------------------- #
+
+# Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
 imports = [
-         "programming",
+     "programming",
 ]
 
-[managers.system]
-items = [
+# Packages to be installed via the native package manager.
+pkg_managers.system.pkgs = [
     
     # FTP
     "git",
@@ -40,7 +45,7 @@ items = [
     "cowsay",
     "rustdesk-bin",
     "python-eduvpn-client",
-  
+    "7zip",
 
 
     #Organisation
@@ -51,7 +56,7 @@ items = [
     "lf",
     "fzf",
     "zoxide",
-
+    "lazygit",
     
     
 
@@ -97,13 +102,19 @@ items = [
     #Virtualisierung
 
     "bottles",
-
+    "docker",
+    "docker-compose",
 
     
 ]
 
-[managers.cargo]
-items = [
+# Packages to be installed via Flatpak.
+pkg_managers.flatpak.pkgs = [
+    # "com.github.tchx84.Flatseal",
+]
+
+# Packages to be installed via Cargo.
+pkg_managers.cargo.pkgs = [
     "bacon",
     "nu",
     "exa",
@@ -126,5 +137,6 @@ items = [
     "hexyl",
     "nomino",
     "tree-rs",
+    "lazygit",
 
 ]

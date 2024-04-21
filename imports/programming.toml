@@ -1,7 +1,9 @@
-pkg_managers.system.pkgs = [
+[managers.system]
+items = [
   #Erlang-Based
   "elixir",
-
+  # Julia
+  "juliaup",
   # Rust
   "rustup",
   "rust-analyzer",
@@ -37,7 +39,8 @@ pkg_managers.system.pkgs = [
 ]
 
 
-pkg_managers.cargo.pkgs = [
+[managers.cargo]
+items = [
   "taplo-cli",
   "evcxr",
   "evcxr_jupyter",
