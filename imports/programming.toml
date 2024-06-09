@@ -22,6 +22,7 @@ items = [
   "neovim",
   "visual-studio-code-bin",
   "helix",
+  "zed-editor",
 
   #Language Servers
   "ansible-language-server",

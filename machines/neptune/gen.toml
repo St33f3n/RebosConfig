@@ -18,12 +18,14 @@ items = [
     #Krypto
     "picocrypt-git",
     "veracrypt-inyourlanguage",
+    "tor-browser-bin",
 
+    #Hyprland
+    "hyprcursor-dracula-kde-git",
 
     #Lab
     "arduino",
     "kicad",
-    "cura-bin",
     "remmina",
     "freerdp",
 
@@ -39,12 +41,14 @@ items = [
     "monero-gui",
     "docker",
     "docker-compose",
+    "buildx",
+    "docker-buildx"
 ]
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
 items= [
-    "io.podman_desktop.PodmanDesktop"
+
 ]
 
 # Packages to be installed via Cargo.

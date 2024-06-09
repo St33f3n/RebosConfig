@@ -13,6 +13,18 @@ items = [
     "nextcloud-client",
     "transmission-gtk",
     
+
+    #Explorer
+    "thunar",
+    "thunar-custom-actions",
+    "thunar-uca",
+    "thunar-vcs-plugin",
+    "thunar-shares-plugin",
+    "thunar-volman",
+    "thunar-archive-plugin",
+    "thunar-nextcloud-plugin",
+
+
     #Terminals
     "alacritty",
     "kitty",
@@ -30,6 +42,7 @@ items = [
     "tldr",
     "atuin",
     "fastfetch",
+    "inotify-tools",
     
 
     #Hilfstools
@@ -39,7 +52,7 @@ items = [
     "yt-dlp",
     "cowsay",
     "rustdesk-bin",
-    "python-eduvpn-client",
+
   
 
 
@@ -47,7 +60,6 @@ items = [
     "obsidian",
     "evolution",
     "pomatez",
-    "masterpdfeditor",
     "lf",
     "fzf",
     "zoxide",
@@ -82,11 +94,11 @@ items = [
     "rofi-lbonn-wayland",
     "pandoc",
     "netcat",
-    "protonmail-bridge",
+    "nmap",
     "7-zip-full",
     "partitionmanager",
     "flatpak",
-    "transmission-gtk",
+
 
         #Fonts
         "noto-fonts-emoji",
@@ -125,6 +137,4 @@ items = [
     "tree-rs",
     "hexyl",
     "nomino",
-    "tree-rs",
-
 ]
