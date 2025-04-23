@@ -25,7 +25,13 @@ imports = [
 
 # Packages to be installed via the native package manager.
 [managers.system]
-items = ["zsa-keymapp-bin "]
+items = [
+    "zsa-keymapp-bin", # ZSA Keyboard Configuration Tool
+    "corectrl",        # AMD GPU Konfigurationstool
+    "cuda",            # CUDA-Support für NVIDIA GPU
+    "optimus-manager", # GPU-Switching-Management für Multi-GPU-Setups
+    "btrfs-assistant", # Btrfs-Management-Tool für Subvolumes und Snapshots
+]
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
