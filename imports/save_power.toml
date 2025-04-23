@@ -1,0 +1,4 @@
+[managers.system]
+items = [
+  "auto-cpufreq", # Automatische CPU-Frequenzanpassung für Energieeinsparung
+]

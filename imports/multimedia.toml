@@ -1,0 +1,26 @@
+[managers.system]
+items = [
+  # Video und Streaming
+  "obs-studio", # Open Broadcaster Software für Streaming und Aufnahme
+  "vlc",        # Vielseitiger Mediaplayer (aktuelle Version)
+  "mpv",        # Minimalistischer, leistungsstarker Mediaplayer
+
+  # Bildbearbeitung
+  "gimp",  # GNU Image Manipulation Program (verschoben von office.toml)
+  "krita", # Digitales Mal- und Zeichenprogramm
+
+  # Audiobearbeitung
+  "ardour", # Digitale Audio-Workstation
+
+  # Codecs und Unterstützung
+  "ffmpeg", # Multimedia-Framework zum Konvertieren von Audio- und Videodateien
+
+
+  # Bildschirmaufnahme und Screencasting
+  "peek", # Einfaches GIF-Bildschirmrekorder-Tool
+
+
+  # Medienorganisation
+  "shotcut",       # Video-Editor
+  "mediainfo-gui", # Detaillierte Informationen über Mediendateien
+]

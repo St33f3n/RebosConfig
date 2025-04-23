@@ -1,0 +1,11 @@
+[managers.system]
+items = [
+    "mesa",                    # Open-Source-Grafiktreiber für Linux
+    "xf86-video-intel",        # X.org-Treiber für Intel-Grafikkarten
+    "vulkan-intel",            # Vulkan-API-Implementierung für Intel-Grafikkarten
+    "lib32-vulkan-intel",      # 32-Bit-Version der Vulkan-Implementierung für Intel
+    "intel-media-driver",      # VA-API-Implementierung für neuere Intel-GPUs (Hardware-Beschleunigung für Video)
+    "intel-gmmlib",            # Intel Graphics Memory Management Library
+    "intel-compute-runtime",   # OpenCL-Implementierung für Intel-GPUs
+    "intel-graphics-compiler", # Compiler für Intel-Grafikprozessoren
+]

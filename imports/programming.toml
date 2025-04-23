@@ -1,50 +1,51 @@
 [managers.system]
 items = [
-  #Erlang-Based
-  "elixir",
-  # Julia
-  "juliaup",
-  # Rust
-  "rustup",
-  "rust-analyzer",
-  "rust-src",
+    # Programmiersprachen und Tools
+    "go",            # Go-Programmiersprache
+    "gopls",         # Language Server für Go
+    "rustup",        # Rust-Installer und Versionsverwaltung
+    "rust-analyzer", # Language Server für Rust
+    "rustfmt",       # Formatter für Rust-Code
+    "mold",          # Moderner und schneller Linker
+    "sccache",       # Shared Compilation Cache für Rust, C und C++
+    "rust-src",      # Rust-Quellcode für Dokumentation und Tools
+    "juliaup",       # Julia-Versionsverwaltung
 
-  # Python
-  "python",
-  "python-pip",
-  "python-pipx",
-  "poetry",
-  "conda",
+    # C/C++ Entwicklungstools
+    "gcc",               # GNU Compiler Collection
+    "gdb",               # GNU Debugger
+    "git",               # Versionskontrollsystem
+    "zip",               # Komprimierungstools
+    "llvm",              # LLVM Compiler-Infrastruktur
+    "lld",               # LLVM-basierter Linker
+    "linux-headers",     # Kernel-Header für Entwicklung
+    "base-devel",        # Grundlegende Entwicklungspakete
+    "cmake",             # Build-System-Generator
+    "valgrind",          # Tool für Speicherfehlersuche
+    "ccache",            # Compiler-Cache
+    "strace",            # System-Call-Tracer
+    "ltrace",            # Library-Call-Tracer
+    "bacon",             # Hintergrund-Code-Checker für Rust
+    "binutils",          # GNU Binary Utilities
+    "man-pages",         # Manuelle Dokumentation
+    "meld",              # Visuelles Diff- und Merge-Tool
+    "ninja",             # Schnelles Build-System
+    "bear",              # Tool zur Erstellung von compilation database
+    "clang-tools-extra", # Zusätzliche Tools für Clang
+    "cppcheck",          # Statischer Analyzer für C/C++
+    "pkg-config",        # Hilfsprogramm zur Kompilierung mit Bibliotheken
+    "doxygen",           # Dokumentationsgenerator
 
-  #R
-  "r",
+    # IDEs und Editoren
+    "qtcreator",              # Qt-basierte IDE
+    "kdevelop",               # KDE-basierte IDE
+    "qt5-base",               # Qt5-Bibliotheken
+    "qt6-base",               # Qt6-Bibliotheken
+    "visual-studio-code-bin", # Code-Editor
 
-  #Editors
-  "neovim",
-  "visual-studio-code-bin",
-  "helix",
-  "zed-editor",
-
-  #Language Servers
-  "ansible-language-server",
-  "bash-language-server",
-  "vscode-langservers-extracted",
-  "dockerfile-language-server",
-  "markdown-oxide-git",
-  "python-lsp-server",
-  "typescript-language-server",
-  
-  
-  #Extras
-  "jupyterlab",
-  "ansible",
-]
-
-
-[managers.cargo]
-items = [
-  "taplo-cli",
-  "evcxr",
-  "evcxr_jupyter",
-  "zellij",
+    # Spezielle Entwicklungstools
+    "godot",    # Spieleentwicklungsplattform
+    "openblas", # Optimierte BLAS-Bibliothek
+    "tokei",    # Programm zur Codestatistik
+    "ansible",  # Automatisierungstool für IT-Infrastruktur (verschoben von docker.toml)
 ]

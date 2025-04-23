@@ -1,0 +1,7 @@
+[managers.system]
+items = [
+  "nvidia-container-toolkit", # Unterstützung für NVIDIA-GPUs in Docker-Containern
+  "nvidia-dkms",              # NVIDIA-Grafiktreiber mit Dynamic Kernel Module Support
+  "nvidia-utils",             # Dienstprogramme und Bibliotheken für NVIDIA-Treiber
+  "nvtop",                    # GPU-Prozess-Monitor für NVIDIA-GPUs
+]

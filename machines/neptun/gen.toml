@@ -4,20 +4,37 @@
 
 # Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
 imports = [
-    # "intensive_apps",
+    "amd_gpu",
+    "cad",
+    "cargo_install",
+    "core_packages",
+    "docker",
+    "entertainment",
+    "file_managment",
+    "hypr",
+    "latex",
+    "multimedia",
+    "nvdia_gpu",
+    "office",
+    "programming",
+    "remote_control",
+    "security",
+    "shell",
+    "virt-manager",
 ]
 
 # Packages to be installed via the native package manager.
-pkg_managers.system.pkgs = [
-    # "git",
-]
+[managers.system]
+items = ["zsa-keymapp-bin "]
 
 # Packages to be installed via Flatpak.
-pkg_managers.flatpak.pkgs = [
+[managers.flatpak]
+items = [
     # "com.github.tchx84.Flatseal",
 ]
 
 # Packages to be installed via Cargo.
-pkg_managers.cargo.pkgs = [
+[managers.cargo]
+items = [
     # "bacon",
 ]

@@ -1,0 +1,8 @@
+[managers.system]
+items = [
+  "qemu-full",    # Hardware-Emulator und Virtualisierungs-Tool
+  "virt-manager", # GUI für Virtualisierung (libvirt)
+  "virt-viewer",  # Anzeigeprogramm für virtuelle Maschinen
+  "dnsmasq",      # Leichter DNS/DHCP-Server
+  "bridge-utils", # Netzwerk-Bridge-Tools für Virtualisierung
+]

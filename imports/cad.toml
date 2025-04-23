@@ -1,0 +1,18 @@
+[managers.system] ## cad.toml (aktualisiert)
+
+items = [
+  # 3D-CAD-Tools
+  "freecad",         # Parametrischer 3D-CAD-Modellierer
+  "openscad",        # Programmierbare CAD-Software
+  "orca-slicer-bin", # 3D-Druck-Slicer (PrusaSlicer-Fork)
+
+  # Elektronik-Design
+  "kicad",            # EDA-Software für elektronische Schaltpläne und PCB-Design
+  "kicad-library",    # Standardbibliothek für KiCad mit Komponenten und Footprints
+  "kicad-library-3d", # 3D-Modelle für KiCad-Komponenten
+
+  # Weitere CAD-Tools
+  "librecad", # 2D-CAD-Zeichenprogramm
+  #"solvespace", # Parametrischer 3D-CAD
+  "blender", # 3D-Modellierung, Animation und Rendering
+]

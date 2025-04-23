@@ -1,0 +1,20 @@
+
+[managers.system] ## office.toml (aktualisiert)
+
+items = [
+  # Office und Produktivitätsanwendungen
+  "libreoffice-fresh",  # Office-Suite (Textverarbeitung, Tabellenkalkulation, Präsentationen)
+  "betterbird-de-bin",  # E-Mail-Client (Thunderbird-Fork)
+  "calibre",            # E-Book-Verwaltung und -Konverter
+  "font-manager",       # Schriftartenverwaltung
+  "libresprite-bin",    # Sprite-Editor für 2D-Pixel-Art
+  "markdown-oxide-git", # Markdown-Editor
+  "noisetorch-bin",     # Rauschunterdrückung für Mikrofone
+  "zoom",               # Videokonferenz-Software
+  "zapzap",             # WhatsApp-Client für Desktop
+  "protonmail-bridge",  # ProtonMail-Integration für E-Mail-Clients
+  "languagetool",       # Grammatik- und Rechtschreibprüfung
+
+  # Lernen und Bildung
+  "anki-bin", # Alternative Binary-Version von Anki (falls nötig)
+]

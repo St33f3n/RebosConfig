@@ -1,0 +1,23 @@
+[managers.system]
+items = [
+  # Bestehende Dateiverwaltungstools
+  "yazi",             # Terminal-Dateimanager
+  "direnv",           # Umgebungsvariablen pro Verzeichnis
+  "lazygit",          # Terminal-UI für Git
+  "veracrypt",        # Disk-Verschlüsselungssoftware
+  "picocrypt-bin",    # Einfaches Verschlüsselungstool
+  "borg",             # Deduplizierendes Backup-Tool
+  "wget",             # Datei-Download-Tool
+  "vorta",            # GUI für Borg-Backup
+  "nextcloud-client", # Client für Nextcloud-Synchronisation
+
+  # FTP-Server und -Clients
+  "vsftpd",    # Very Secure FTP-Daemon (Server)
+  "filezilla", # FTP-Client mit GUI-Unterstützung
+  "lftp",      # Mächtiger Kommandozeilen-FTP-Client
+
+  # Datei-Sharing und -Synchronisation
+  "croc",  # Einfache Dateiübertragung zwischen Computern
+  "rsync", # Schnelles, vielseitiges Datei-Kopier-Tool
+  "samba", # SMB/CIFS Dateisharing für Windows/Linux
+]

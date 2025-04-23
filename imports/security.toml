@@ -1,0 +1,38 @@
+[managers.system]
+items = [
+  # Passwort-Manager
+  "keepassxc", # Lokaler Passwort-Manager mit Verschlüsselung
+  "bitwarden", # Cloud-basierter Passwort-Manager mit lokalem Vault
+
+  # Firewall und Netzwerksicherheit
+  "firewalld",       # Dynamische Firewall mit Zone-Unterstützung
+  "wireguard-tools", # VPN-Protokoll und Werkzeuge
+  "fail2ban",        # Schutz vor Brute-Force-Angriffen
+  "iptables-nft",    # Netzwerk-Paketfilterung (Basis für firewalld)
+
+  # Netzwerkanalyse
+  "wireshark-qt",  # Netzwerkprotokollanalysator mit Qt-Oberfläche
+  "wireshark-cli", # Kommandozeilenversion von Wireshark
+  "tcpdump",       # Kommandozeilen-Netzwerkanalysator
+  "nmap",          # Netzwerk-Scanner und Sicherheitsauditor
+  "netcat",        # Netzwerk-Dienstprogramm zum Lesen/Schreiben von Netzwerkverbindungen
+  "traceroute",    # Verfolgen des Routenpfades zu einem Netzwerkhost
+
+  # System-Sicherheitstools
+  "firejail", # Sandbox für Linux-Programme
+  "apparmor", # Anwendungs-Sicherheitsprofile
+  "rkhunter", # Rootkit-Prüfung und -Erkennung
+  "clamav",   # Antiviren-Scanner
+  "lynis",    # Sicherheitsaudit-Tool
+
+  # Verschlüsselung
+  "gnupg",                   # GNU Privacy Guard für Verschlüsselung
+  "paperkey",                # Backup für OpenPGP-Schlüssel auf Papier
+  "yubikey-manager",         # Management-Tool für YubiKey-Authentifizierungsgeräte
+  "yubikey-personalization", # Personalisierung von YubiKey-Geräten
+
+  # Anonymität und Privatsphäre
+  "bleachbit",       # System-Reinigungstool für Datenschutz
+  "tor",             # Anonymisierungsnetzwerk
+  "tor-browser-bin", # Tor-Browser
+]

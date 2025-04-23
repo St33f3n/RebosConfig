@@ -1,0 +1,20 @@
+[managers.system]
+items = [
+  # Terminal und Shell
+  "alacritty",    # GPU-beschleunigter Terminal-Emulator
+  "nushell",      # Moderne Shell mit strukturierten Daten
+  "pueue",        # Befehlszeilenverwaltung für langläufige Prozesse
+  "atuin",        # Shell-Verlauf mit Synchronisation
+  "carapace-bin", # Kommandozeilenergänzungen für verschiedene Shells
+  "evtest",       # Input-Event-Tester
+  "fastfetch",    # Systeminfoanzeige (Alternative zu neofetch)
+  "ffmpegthumbs", # Video-Thumbnails für Dateimanager
+  "grim",         # Screenshot-Tool für Wayland
+  "jq",           # JSON-Prozessor (auch in core_packages.toml)
+  "procs",        # Moderne Alternative zu ps
+  "starship",     # Anpassbarer Shell-Prompt
+  "yt-dlp",       # Video-Downloader (YouTube und andere Plattformen)
+  "arp-scan",     # Netzwerk-Scanner für lokale Netzwerke
+  "zellij",       # Terminal-Multiplexer (wie tmux)
+
+]

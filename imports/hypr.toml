@@ -1,0 +1,47 @@
+[managers.system]
+items = [
+  # Compositor und Fenstermanager
+  "hyprland",   # Dynamischer Tiling Wayland-Compositor
+  "hyprpaper",  # Hintergrundbild-Manager für Hyprland
+  "hyprpicker", # Farbwähler für Hyprland
+
+  # Statusleiste und Desktop-Elemente
+  "waybar", # Konfigurierbare Statusleiste für Wayland
+  "eww",    # Elkowar's Wacky Widgets (anpassbare Widgets)
+
+  # Benachrichtigungen
+  "dunst",     # Leichtgewichtiger Benachrichtigungsdaemon
+  "libnotify", # Bibliothek für Desktop-Benachrichtigungen
+
+  # Systemdialog und Menüs
+  "rofi-wayland",         # Anwendungsstarter für Wayland
+  "wofi",                 # Alternative zu rofi für Wayland
+  "wlogout",              # Wayland-basiertes Logout-Menü
+  "swaylock-effects-git", # Sperrbildschirm für Wayland
+  "swayidle",             # Leerlauf-Management für Wayland
+
+  # Bildschirmfoto und Aufnahme
+  "grim",        # Bildschirmfoto-Tool für Wayland
+  "slurp",       # Bereichsauswahl für grim
+  "wf-recorder", # Bildschirmaufnahme für Wayland
+
+  # Systemintegration
+  "xdg-desktop-portal-hyprland", # XDG Desktop Portal für Hyprland
+  "polkit-kde-agent",            # Authentifizierungs-Agent
+  "udiskie",                     # Automatisches Einhängen von Wechselmedien
+
+  # Zwischenablage und Keyboard
+  "wl-clipboard", # Zwischenablage für Wayland
+  "wtype",        # xdotool-Ersatz für Wayland
+  "cliphist",     # Zwischenablage-Verlauf
+
+  # Protokolle und Utilities
+  "xorg-xwayland", # X11-Kompatibilitätsschicht
+  "qt5-wayland",   # Qt5-Wayland-Unterstützung
+  "qt6-wayland",   # Qt6-Wayland-Unterstützung
+  "waylock",       # Einfacher Sperrbildschirm für Wayland
+
+  # Aussehen und Theming
+  "gtk3",     # GTK-Toolkit
+  "nwg-look", # GTK-Themeneinstellungen für Wayland
+]

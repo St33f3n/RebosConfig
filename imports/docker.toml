@@ -1,0 +1,2 @@
+[managers.system]
+items = ["docker", "docker-buildx", "docker-compose", "ansible"]

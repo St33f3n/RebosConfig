@@ -1,0 +1,7 @@
+[managers.system]
+items = [
+  "mesa",                # Open-Source-Grafiktreiber für Linux, unterstützt AMD und andere Grafikchips
+  "xf86-video-amdgpu",   # X.org-Treiber für AMD-Grafikkarten
+  "vulkan-radeon",       # Vulkan-API-Implementierung für AMD Radeon-Grafikkarten
+  "lib32-vulkan-radeon", # 32-Bit-Version der Vulkan-Implementierung für AMD
+]

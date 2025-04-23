@@ -1,0 +1,29 @@
+[managers.system]
+items = [
+    # System-Monitoring und Verwaltung
+    "btop",                    # Systemmonitor für Ressourcennutzung
+    "helix",                   # Moderner Texteditor in Rust
+    "cups",                    # Druckerverwaltungssystem
+    "dust",                    # Verbesserte Alternative zu du
+    "eza",                     # Moderne Alternative zu ls
+    "fd",                      # Benutzerfreundliche Alternative zu find
+    "grimblast-git",           # Screenshot-Tool für Wayland
+    "jq",                      # JSON-Prozessor für die Kommandozeile
+    "iwd",                     # Internet Wireless Daemon
+    "libnotify",               # Bibliothek für Desktop-Benachrichtigungen
+    "localsend",               # Lokaler Dateitransfer zwischen Geräten
+    "nano",                    # Einfacher Texteditor
+    "nerdfonts-installer-bin", # Programmierfreundliche Schriftarten
+    "qalculate-gtk",           # Leistungsstarker wissenschaftlicher Taschenrechner
+    "tealdeer",                # Vereinfachte man-Seiten (tldr)
+    "triliumnext-bin",         # Hierarchische Notizen-App
+    "wakeonlan",               # Remote-PC-Aufweck-Tool
+    "xpadneo-dkms",            # Xbox-Controller-Treiber
+    "zen-browser-bin",         # Minimalistischer Webbrowser
+    "zoxide",                  # Intelligenter cd-Ersatz
+    "bluez",                   # Bluetooth-Stack
+    "bluez-utils",             # Bluetooth-Utilities
+    "cliphist",                # Zwischenablage-Manager
+    "ripgrep",                 # Schnellsuchtool (Alternative zu grep)
+    "networkmanager",          # Netzwerkverwaltung (verschoben von office.toml)
+]

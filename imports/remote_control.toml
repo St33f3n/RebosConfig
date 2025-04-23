@@ -1,0 +1,20 @@
+[managers.system]
+items = [
+  # Spiel- und Desktop-Streaming
+  "sunshine",                  # Host-Server für Gamestream, kompatibel mit Moonlight (als AUR-Paket: sunshine-git)
+  "moonlight-qt-axi-appimage", # Client für Sunshine, ermöglicht Streaming von Games/Desktop
+
+  # Remote Desktop
+  "remmina",  # Remote-Desktop-Client mit Unterstützung für RDP, VNC, SSH
+  "freerdp",  # RDP-Client-Bibliothek
+  "tigervnc", # VNC-Server und -Client
+
+  # SSH und Terminal-Fernzugriff
+  "openssh", # OpenSSH-Server und -Client
+  "sshfs",   # Dateisystemmounting über SSH
+  #"deskflow-git", # Software-KVM, Maus/Tastatur über mehrere Computer teilen
+
+  # Fernwartung
+  "rustdesk-bin", # Open-Source-Remote-Desktop-Software (Alternative zu TeamViewer)
+
+]

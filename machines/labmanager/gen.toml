@@ -3,20 +3,35 @@
 # --------------------- #
 
 # Other generation files to import. (Example: intensive_apps -> ~/.config/rebos/imports/intensive_apps.toml)
-imports = []
+imports = [
+  "intel_gpu",
+  "cargo_install",
+  "core_packages",
+  "docker",
+  "file_managment",
+  "office",
+  "multimedia",
+  "programming",
+  "remote_control",
+  "shell",
+  "security.toml",
+  "save_power",
+]
 
 # Packages to be installed via the native package manager.
 [managers.system]
-items = []
+items = [
+  # "git",
+]
 
 # Packages to be installed via Flatpak.
 [managers.flatpak]
 items = [
-    # "com.github.tchx84.Flatseal",
+  # "com.github.tchx84.Flatseal",
 ]
 
 # Packages to be installed via Cargo.
 [managers.cargo]
 items = [
-    # "bacon",
+  # "bacon",
 ]
